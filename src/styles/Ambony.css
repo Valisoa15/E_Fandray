@@ -1,0 +1,177 @@
+.test{
+ background-color:rgb(217, 255, 233);
+ height: 50px;
+ position: relative;
+}
+
+.test1{
+    position: absolute;
+    right: 50px;
+    display: flex;
+    width: 25%;
+    flex-direction: row;
+    justify-content: space-around;
+    top: 10px;
+}
+
+.lien{
+
+    flex:1;
+}
+/*css vao2 eo ambany*/
+.parent{
+    background-color:#F1F2F6;
+    position: relative;
+    height: 700px;
+    justify-content: space-around;
+}
+.parent1{
+    position:absolute;
+    left:150px;
+    background-color: rgb(54, 52, 63);
+    width: 420px;
+    height: 700px;
+    border-radius: 5px;
+    
+    
+}
+.parent2{
+    position:absolute;
+    right:  150px;
+    /*background-color: rgb(248, 248, 250);*/
+    background-color: #fff;
+    box-shadow: 2px 2px 3px #adadad ,-2px -2px 3px #fff;
+    
+    width: 800px;
+    height: 700px;
+    border-radius: 5px;
+   
+}
+
+.bas{
+    background-color:rgb(113, 216, 230);
+    position: relative;
+
+}
+.fils1{
+    background-color: rgb(154, 236, 161);
+    width: 350px;
+    height: 100px;
+    
+    position: absolute;
+    left: 10px;
+    border-radius: 10px;
+    /*right:100px;*/
+}
+.fils2{
+    background-color: rgb(98, 90, 212);
+    width: 350px;
+    height: 100px;
+    position: absolute;
+    right: 10px;
+    border-radius: 10px;
+}
+
+input{
+    width: 650px;
+    height:60px ;
+    position: absolute;
+    left: 10px;
+    position: relative;
+    border: 1px solid #adadad;
+    
+}
+#recherche{
+    width: 300px;
+    height:60px ;
+    left:50px;
+    border: none;
+    background-color: rgb(117, 108, 108);
+}
+#envoyer{
+    color: rgb(249, 247, 252);
+    width: 100px;
+    height: 60px;
+    background-color: rgb(16, 58, 241);
+    border-radius: 10px;
+    margin-left: 15px;
+    
+    
+    
+}
+
+button{
+    position:absolute;
+    right: 20px;
+    background: rgb(184, 12, 12);
+}
+
+.contenu1{
+    /*background-color: rgb(214, 23, 23);*/
+    width: 700px;
+    height:90px;
+    position: relative;
+}
+.sary1{
+    
+    position: absolute;
+    left: 30px;
+}
+#image{
+    border-radius: 100px;
+    box-shadow: 2px 2px 3px #adadad ,-2px -2px 3px #adadad;
+}
+
+.message1{
+
+    position: absolute;
+    left: 100px;
+    color: white;
+    /*font-weight: bold;
+*/
+}
+.message11{
+
+    position: absolute;
+    left: 100px;
+    color: white;
+    font-weight: bold;
+
+}
+
+.encours{
+    
+    background-color: rgb(170, 165, 165);
+    position:absolute;
+    width: 800px;
+    height: 70px;
+}
+#image1{
+    position: absolute;
+    top: 3px;
+}
+.send{
+    position: absolute;
+    left: 10px;
+    top:15px;
+    font-weight: italic;
+    color: white;
+}
+
+.contenu2{
+    
+
+    top: 30px;
+    
+}
+#nom{
+    margin-left: 600px;
+}
+#titre{
+    position:absolute;
+    margin-left: 40px;
+    top: 10px;
+    color: rgb(59, 109, 201);
+    font-size:24px;
+
+}
